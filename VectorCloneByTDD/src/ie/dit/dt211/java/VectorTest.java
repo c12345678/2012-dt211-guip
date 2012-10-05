@@ -10,16 +10,16 @@ import org.junit.Test;
  *
  * 
  * [ ] new Vector()
- * [ ] boolean add(Object o)
- * [ } void add(int index, Object o)
- * [ ] Object get(int index)
- * [ ] boolean remove(Object o)
- * [ ] void clear()
- * [ ] int size()
- * [ ] int capacity()
- * [ ] boolean contains(Object o)
- * [ ] int indexOf()
- * [ ] int lastIndexOf()
+ * [ ] public boolean add(Object o)
+ * [ } public void add(int index, Object o)
+ * [ ] public Object get(int index)
+ * [ ] public boolean remove(Object o)
+ * [ ] public void clear()
+ * [ ] public int size()
+ * [ ] public int capacity()
+ * [ ] public boolean contains(Object o)
+ * [ ] public int indexOf()
+ * [ ] public int lastIndexOf()
  */
 public class VectorTest {
 
