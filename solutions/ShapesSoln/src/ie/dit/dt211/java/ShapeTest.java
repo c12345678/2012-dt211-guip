@@ -40,7 +40,7 @@ public class ShapeTest {
 	}
 	
 	@Test public void getsAreaOfASphere() {
-		assertEquals(24.0, new Cube(2.0).area(), 0.000000001);
+		assertEquals(4.0 * PI * 4.0, new Sphere(2.0).area(), 0.000000001);
 	}
 	
 	@Test public void getsVolumeOfASphere() {
