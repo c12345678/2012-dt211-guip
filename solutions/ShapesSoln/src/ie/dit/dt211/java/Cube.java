@@ -8,10 +8,18 @@ public class Cube extends Shape implements ThreeDShape {
 		this.dimension = dimension;
 	}
 	
+	public double getDimension() {
+		return dimension;
+	}
+	
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		// Surface area
+		return dimension * dimension * 6;
+	}
+
+	public double volume() {
+		return dimension * dimension * dimension;
 	}
 
 }
