@@ -45,11 +45,6 @@ public class CalculatorTest {
 		assertEquals(46.0, calculator.evaluate(), 0.0);
 	}
 	
-	@Test public void simpleSubtrationWithNegative() {
-		makeCalculator(" ~ 1 - 2", true);
-		assertEquals(-3.0, calculator.evaluate(), 0.0);
-	}
-	
 	@Test public void expressionWithNegativeNumber() {
 		makeCalculator("~ 1 2 + 3 4", true);
 		assertEquals(22.0, calculator.evaluate(), 0.0);
@@ -92,7 +87,7 @@ public class CalculatorTest {
 		assertEquals(10.799999999999999, calculator.evaluate(), 0.0);
 	}
 	
-	@Test public void moderatelyComplexFloatingPointExpression() {
+	@Test public void complexFloatingPointExpression() {
 		makeCalculator("1 . 2 x ( 3 . 4 + 5 . 6 ) / 2 . 0 - ( 6 . 6 + 2 . 4 ) x ~ 0 . 3", true);
 		assertEquals(8.1, calculator.evaluate(), 0.0);
 	}
